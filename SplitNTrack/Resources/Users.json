@@ -1,0 +1,42 @@
+[
+  {
+    "id": "aacb5de5-64ca-4e5a-b25e-08b240104174",
+    "name": "John Doe",
+    "mobile": "+1234567890",
+    "email": "john.doe@example.com",
+    "password": "securepassword123",
+    "dateOfBirth": "1990-01-01"
+  },
+  {
+    "id": "d0240181-e290-4acd-bd95-24be9aeab08f",
+    "name": "Jane Smith",
+    "mobile": "+0987654321",
+    "email": "jane.smith@example.com",
+    "password": "anotherpassword456",
+    "dateOfBirth": null
+  },
+  {
+    "id": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4",
+    "name": "Emily Johnson",
+    "mobile": "+1122334455",
+    "email": null,
+    "password": "yetanotherpassword789",
+    "dateOfBirth": "1992-07-22"
+  },
+  {
+    "id": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16",
+    "name": "Michael Brown",
+    "mobile": "+5566778899",
+    "email": null,
+    "password": "michaelpassword000",
+    "dateOfBirth": null
+  },
+  {
+    "id": "45f43c65-f5cf-4e20-8457-3b307275a851",
+    "name": "Sarah Williams",
+    "mobile": "+2233445566",
+    "email": "sarah.williams@example.com",
+    "password": "sarahspassword111",
+    "dateOfBirth": "1988-11-30"
+  }
+]

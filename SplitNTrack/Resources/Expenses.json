@@ -1,0 +1,142 @@
+[
+  {
+    "id": "c7b8b7f3-5824-4c9d-9f1a-7fbe5d5a0d1f",
+    "description": "Office Supplies",
+    "amount": 150.00,
+    "userId": "aacb5de5-64ca-4e5a-b25e-08b240104174",
+    "dateOfExpense": "2024-07-01",
+    "categoryId": "f0b4dcb1-d83b-462a-a828-3f2cf2745b2f",
+    "sharedWith": ["d0240181-e290-4acd-bd95-24be9aeab08f", "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"],
+    "paidBy": "aacb5de5-64ca-4e5a-b25e-08b240104174"
+  },
+  {
+    "id": "1a71d5f2-2ed3-40a5-8a5c-0eae8f9b2346",
+    "description": "Lunch with Client",
+    "amount": 75.00,
+    "userId": "d0240181-e290-4acd-bd95-24be9aeab08f",
+    "dateOfExpense": "2024-07-05",
+    "categoryId": "d9b383de-ec15-4587-a919-cce2fea9b0d8",
+    "sharedWith": [],
+    "paidBy": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16"
+  },
+  {
+    "id": "dcb5e872-5b3a-4d9f-bdf7-5e10e63d3a1b",
+    "description": "Team Building Event",
+    "amount": 300.00,
+    "userId": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4",
+    "dateOfExpense": "2024-07-10",
+    "categoryId": "69dbb0f1-691c-4d72-bd57-17bed2edc080",
+    "sharedWith": ["aacb5de5-64ca-4e5a-b25e-08b240104174"],
+    "paidBy": "d0240181-e290-4acd-bd95-24be9aeab08f"
+  },
+  {
+    "id": "59f35c2e-6e7b-4857-865d-5158a0b1c1a5",
+    "description": "Software Subscription",
+    "amount": 120.00,
+    "userId": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16",
+    "dateOfExpense": "2024-07-15",
+    "categoryId": "970212f4-73c9-490b-abcb-4f5f824191ef",
+    "sharedWith": ["45f43c65-f5cf-4e20-8457-3b307275a851"],
+    "paidBy": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16"
+  },
+  {
+    "id": "8f8b08f6-7f5e-4b0b-b7ec-1d08e567c0ea",
+    "description": "Office Rent",
+    "amount": 2000.00,
+    "userId": "45f43c65-f5cf-4e20-8457-3b307275a851",
+    "dateOfExpense": "2024-07-20",
+    "categoryId": null,
+    "sharedWith": [],
+    "paidBy": null
+  },
+  {
+    "id": "3bfa1b56-6f9f-4f02-97f4-0f0c8278b86b",
+    "description": "Team Lunch",
+    "amount": 50.00,
+    "userId": "aacb5de5-64ca-4e5a-b25e-08b240104174",
+    "dateOfExpense": "2024-07-25",
+    "categoryId": null,
+    "sharedWith": [],
+    "paidBy": "d0240181-e290-4acd-bd95-24be9aeab08f"
+  },
+  {
+    "id": "85cbb4d4-8b7a-49a4-82ae-0d687c1462d0",
+    "description": "Marketing Materials",
+    "amount": 80.00,
+    "userId": "d0240181-e290-4acd-bd95-24be9aeab08f",
+    "dateOfExpense": "2024-07-30",
+    "categoryId": "f0b4dcb1-d83b-462a-a828-3f2cf2745b2f",
+    "sharedWith": ["f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"],
+    "paidBy": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"
+  },
+  {
+    "id": "9d15681e-9b99-4633-8449-c11c76b20e65",
+    "description": "Client Dinner",
+    "amount": 200.00,
+    "userId": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4",
+    "dateOfExpense": "2024-08-01",
+    "categoryId": "d9b383de-ec15-4587-a919-cce2fea9b0d8",
+    "sharedWith": ["fb2cda09-b66c-4a84-b0b6-7d463e16eb16"],
+    "paidBy": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16"
+  },
+  {
+    "id": "a7d6bb80-764f-4f83-9d0e-5b2b4a35780a",
+    "description": "Training Course",
+    "amount": 150.00,
+    "userId": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16",
+    "dateOfExpense": "2024-08-05",
+    "categoryId": "69dbb0f1-691c-4d72-bd57-17bed2edc080",
+    "sharedWith": ["aacb5de5-64ca-4e5a-b25e-08b240104174", "d0240181-e290-4acd-bd95-24be9aeab08f"],
+    "paidBy": "aacb5de5-64ca-4e5a-b25e-08b240104174"
+  },
+  {
+    "id": "1a47c756-d2d4-40d4-8d15-021c64f051c4",
+    "description": "Equipment Repair",
+    "amount": 60.00,
+    "userId": "45f43c65-f5cf-4e20-8457-3b307275a851",
+    "dateOfExpense": "2024-08-10",
+    "categoryId": "970212f4-73c9-490b-abcb-4f5f824191ef",
+    "sharedWith": ["f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"],
+    "paidBy": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"
+  },
+  {
+    "id": "ea9aafed-2d8c-4d79-aab6-8cf13c6cf258",
+    "description": "Subscription Service",
+    "amount": 90.00,
+    "userId": "aacb5de5-64ca-4e5a-b25e-08b240104174",
+    "dateOfExpense": "2024-08-15",
+    "categoryId": null,
+    "sharedWith": [],
+    "paidBy": null
+  },
+  {
+    "id": "42c72c3e-8716-4858-9129-37c46e63ed85",
+    "description": "Project Supplies",
+    "amount": 120.00,
+    "userId": "d0240181-e290-4acd-bd95-24be9aeab08f",
+    "dateOfExpense": "2024-08-20",
+    "categoryId": "f0b4dcb1-d83b-462a-a828-3f2cf2745b2f",
+    "sharedWith": ["f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"],
+    "paidBy": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"
+  },
+  {
+    "id": "a12a56e4-2382-41ab-80cc-ecabdc0eab90",
+    "description": "Client Travel",
+    "amount": 250.00,
+    "userId": "45f43c65-f5cf-4e20-8457-3b307275a851",
+    "dateOfExpense": "2024-08-25",
+    "categoryId": "d9b383de-ec15-4587-a919-cce2fea9b0d8",
+    "sharedWith": ["fb2cda09-b66c-4a84-b0b6-7d463e16eb16"],
+    "paidBy": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16"
+  },
+  {
+    "id": "56ef813b-2064-4b75-94db-5d2a3e3a8b9e",
+    "description": "Office Decorations",
+    "amount": 200.00,
+    "userId": "aacb5de5-64ca-4e5a-b25e-08b240104174",
+    "dateOfExpense": "2024-09-01",
+    "categoryId": "f0b4dcb1-d83b-462a-a828-3f2cf2745b2f",
+    "sharedWith": ["d0240181-e290-4acd-bd95-24be9aeab08f"],
+    "paidBy": "d0240181-e290-4acd-bd95-24be9aeab08f"
+  }
+]

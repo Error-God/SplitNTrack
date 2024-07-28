@@ -1,0 +1,58 @@
+[
+  {
+    "id": "f0b4dcb1-d83b-462a-a828-3f2cf2745b2f",
+    "description": "Office Supplies and Equipment",
+    "types": [
+      "Office Supplies",
+      "Marketing Materials",
+      "Project Supplies",
+      "Office Decorations",
+      "Software Update"
+    ],
+    "createdBy": "aacb5de5-64ca-4e5a-b25e-08b240104174"
+  },
+  {
+    "id": "d9b383de-ec15-4587-a919-cce2fea9b0d8",
+    "description": "Meals and Entertainment",
+    "types": [
+      "Lunch with Client",
+      "Client Dinner",
+      "Office Furniture",
+      "Team Lunch"
+    ],
+    "createdBy": "d0240181-e290-4acd-bd95-24be9aeab08f"
+  },
+  {
+    "id": "69dbb0f1-691c-4d72-bd57-17bed2edc080",
+    "description": "Training and Events",
+    "types": [
+      "Team Building Event",
+      "Training Course",
+      "Travel Expenses",
+      "Team Outing"
+    ],
+    "createdBy": "f9b58ba9-ee25-44a4-88b7-7c74289fe9c4"
+  },
+  {
+    "id": "970212f4-73c9-490b-abcb-4f5f824191ef",
+    "description": "Subscriptions and Services",
+    "types": [
+      "Software Subscription",
+      "Subscription Service",
+      "Equipment Repair",
+      "Workshop Fees",
+      "Training Materials"
+    ],
+    "createdBy": "fb2cda09-b66c-4a84-b0b6-7d463e16eb16"
+  },
+  {
+    "id": "4c03dedf-cdc4-4c94-be96-fc3d5359c254",
+    "description": "Rent and Utilities",
+    "types": [
+      "Office Rent",
+      "Conference Fee",
+      "Employee Training"
+    ],
+    "createdBy": "45f43c65-f5cf-4e20-8457-3b307275a851"
+  }
+]
