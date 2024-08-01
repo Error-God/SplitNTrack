@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Combine
+
+class ExpenseViewModel: ObservableObject {
+    @Published var expenses: [Expense] = []
+}

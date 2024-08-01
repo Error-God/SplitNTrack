@@ -26,6 +26,8 @@
 		040F066B2C539AB80065AF22 /* ExportExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066A2C539AB80065AF22 /* ExportExpenseView.swift */; };
 		040F066D2C539AC50065AF22 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066C2C539AC50065AF22 /* FriendsView.swift */; };
 		040F066F2C539ACE0065AF22 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066E2C539ACE0065AF22 /* ProfileView.swift */; };
+		04FF4BE72C57A8E800E9199D /* Expenses.json in Resources */ = {isa = PBXBuildFile; fileRef = 040F065E2C4EBFDE0065AF22 /* Expenses.json */; };
+		04FF4BE82C57A8E800E9199D /* Category.json in Resources */ = {isa = PBXBuildFile; fileRef = 040F065F2C51518E0065AF22 /* Category.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FF4BE72C57A8E800E9199D /* Expenses.json in Resources */,
+				04FF4BE82C57A8E800E9199D /* Category.json in Resources */,
 				040F065D2C4EBFA40065AF22 /* Users.json in Resources */,
 				040F06462C4EB2820065AF22 /* Preview Assets.xcassets in Resources */,
 				040F06432C4EB2820065AF22 /* Assets.xcassets in Resources */,

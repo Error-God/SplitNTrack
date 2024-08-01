@@ -8,9 +8,9 @@
 import Foundation
 
 struct Category: Codable, Identifiable {
-    var id: Int
+    var id: UUID
     var name: String
     var types: [String]
-    var createdBy: Int
+    var createdBy: UUID
 }
 

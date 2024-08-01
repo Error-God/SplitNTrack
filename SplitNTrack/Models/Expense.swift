@@ -8,12 +8,12 @@
 import Foundation
 
 struct Expense: Codable, Identifiable {
-    var id: Int
+    var id: UUID
     var description: String
     var amount: Double
     var dateOfExpense: Date
-    var paidBy: Int
-    var sharedWith: [Int]
-    var categoryId: Int?
+    var paidBy: UUID
+    var sharedWith: [UUID]
+    var categoryId: UUID?
 }
 

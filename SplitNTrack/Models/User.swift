@@ -8,7 +8,7 @@
 import Foundation
 
 struct User: Codable, Identifiable {
-    var id: Int
+    var id: UUID
     var name: String
     var mobile: String
     var email: String

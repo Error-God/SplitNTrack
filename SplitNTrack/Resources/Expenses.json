@@ -47,7 +47,7 @@
     "dateOfExpense": "2024-07-20",
     "categoryId": null,
     "sharedWith": [],
-    "paidBy": null
+    "paidBy": "ea9aafed-2d8c-4d79-aab6-8cf13c6cf258"
   },
   {
     "id": "3bfa1b56-6f9f-4f02-97f4-0f0c8278b86b",
@@ -107,7 +107,7 @@
     "dateOfExpense": "2024-08-15",
     "categoryId": null,
     "sharedWith": [],
-    "paidBy": null
+    "paidBy": "ea9aafed-2d8c-4d79-aab6-8cf13c6cf258"
   },
   {
     "id": "42c72c3e-8716-4858-9129-37c46e63ed85",
