@@ -8,42 +8,58 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var supabaseClientWrapper: SupabaseClientWrapper
+
+    
+    @State var loggedInState: String = "LoggedIn"
     var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house")
-                }
+        switch loggedInState{
+        case "SignUp":
+            Text(loggedInState)
             
-            AddExpenseView()
-                .tabItem {
-                    Label("Add Expense", systemImage: "plus.circle")
-                }
+        case "LogIn":
+            Text(loggedInState)
             
-            ViewExpenseView()
-                .tabItem {
-                    Label("View Expense", systemImage: "text.viewfinder")
-                }
-            
-            CategoryView()
-                .tabItem {
-                    Label("Categories", systemImage: "tag")
-                }
-            
-            FriendsView()
-                .tabItem {
-                    Label("Friends", systemImage: "person.2")
-                }
-            
-            ExportExpenseView()
-                .tabItem {
-                    Label("Export", systemImage: "square.and.arrow.down")
-                }
-            
-            ProfileView()
-                .tabItem {
-                    Label("Profile", systemImage: "person.crop.circle")
-                }
+        case "LoggedIn":
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                
+                AddExpenseView()
+                    .tabItem {
+                        Label("Add Expense", systemImage: "plus.circle")
+                    }
+                
+                ViewExpenseView()
+                    .tabItem {
+                        Label("View Expense", systemImage: "text.viewfinder")
+                    }
+                
+                CategoryView()
+                    .tabItem {
+                        Label("Categories", systemImage: "tag")
+                    }
+                
+                FriendsView()
+                    .tabItem {
+                        Label("Friends", systemImage: "person.2")
+                    }
+                
+                ExportExpenseView()
+                    .tabItem {
+                        Label("Export", systemImage: "square.and.arrow.down")
+                    }
+                
+                ProfileView()
+                    .tabItem {
+                        Label("Profile", systemImage: "person.crop.circle")
+                    }
+            }
+        default:
+            Text("No View identified")
         }
     }
 }

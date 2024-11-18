@@ -26,6 +26,8 @@
 		040F066B2C539AB80065AF22 /* ExportExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066A2C539AB80065AF22 /* ExportExpenseView.swift */; };
 		040F066D2C539AC50065AF22 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066C2C539AC50065AF22 /* FriendsView.swift */; };
 		040F066F2C539ACE0065AF22 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F066E2C539ACE0065AF22 /* ProfileView.swift */; };
+		0455158B2C93926D008CAF5B /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0455158A2C93926D008CAF5B /* Supabase */; };
+		0455158F2C939660008CAF5B /* SupabaseClientWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455158E2C939660008CAF5B /* SupabaseClientWrapper.swift */; };
 		04FF4BE72C57A8E800E9199D /* Expenses.json in Resources */ = {isa = PBXBuildFile; fileRef = 040F065E2C4EBFDE0065AF22 /* Expenses.json */; };
 		04FF4BE82C57A8E800E9199D /* Category.json in Resources */ = {isa = PBXBuildFile; fileRef = 040F065F2C51518E0065AF22 /* Category.json */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,7 @@
 		040F066A2C539AB80065AF22 /* ExportExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportExpenseView.swift; sourceTree = "<group>"; };
 		040F066C2C539AC50065AF22 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		040F066E2C539ACE0065AF22 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0455158E2C939660008CAF5B /* SupabaseClientWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClientWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455158B2C93926D008CAF5B /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +75,7 @@
 			children = (
 				040F063D2C4EB2800065AF22 /* SplitNTrack */,
 				040F063C2C4EB2800065AF22 /* Products */,
+				045515892C93926D008CAF5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,8 +151,16 @@
 				040F065C2C4EBFA40065AF22 /* Users.json */,
 				040F065E2C4EBFDE0065AF22 /* Expenses.json */,
 				040F065F2C51518E0065AF22 /* Category.json */,
+				0455158E2C939660008CAF5B /* SupabaseClientWrapper.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		045515892C93926D008CAF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,9 @@
 			dependencies = (
 			);
 			name = SplitNTrack;
+			packageProductDependencies = (
+				0455158A2C93926D008CAF5B /* Supabase */,
+			);
 			productName = SplitNTrack;
 			productReference = 040F063B2C4EB2800065AF22 /* SplitNTrack.app */;
 			productType = "com.apple.product-type.application";
@@ -194,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 040F06322C4EB2800065AF22;
+			packageReferences = (
+				045515882C93922A008CAF5B /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 040F063C2C4EB2800065AF22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +255,7 @@
 				040F06412C4EB2800065AF22 /* ContentView.swift in Sources */,
 				040F06582C4EB3980065AF22 /* ExpenseViewModel.swift in Sources */,
 				040F06612C539A430065AF22 /* User.swift in Sources */,
+				0455158F2C939660008CAF5B /* SupabaseClientWrapper.swift in Sources */,
 				040F063F2C4EB2800065AF22 /* SplitNTrackApp.swift in Sources */,
 				040F06542C4EB3200065AF22 /* ViewExpenseView.swift in Sources */,
 				040F06562C4EB34E0065AF22 /* EditExpenseView.swift in Sources */,
@@ -442,6 +462,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		045515882C93922A008CAF5B /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0455158A2C93926D008CAF5B /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 045515882C93922A008CAF5B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 040F06332C4EB2800065AF22 /* Project object */;
 }

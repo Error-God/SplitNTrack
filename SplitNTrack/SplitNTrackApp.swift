@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Supabase
 
 @main
 struct SplitNTrackApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+//    }
+    // Initialize Supabase client
+    @StateObject private var supabaseClientWrapper = SupabaseClientWrapper()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(supabaseClientWrapper)
         }
     }
 }
